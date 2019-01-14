@@ -7,7 +7,7 @@
 
 # Docker Pown
 
-This is a docker container for [Pown.js](https://pownjs.com/).
+This is a docker container for [Pown.js](https://pownjs.com/) Pown.
 
 The container entry point is controlled by [launcher](https://github.com/opendevsecops/go-launcher) which provides additional features useful when used in cloud environments.
 
