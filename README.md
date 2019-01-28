@@ -18,5 +18,13 @@ The container entry point is controlled by [launcher](https://github.com/opendev
 This container is built automatically by Docker Hub. Simply pull to get latest build.
 
 ```sh
-docker pull opendevsecops/pown
+docker pull opendevsecops/pown:latest
 ```
+
+Run pown with docker.
+
+```sh
+docker run -it opendevsecops/pown
+```
+
+See Pownjs [official site](https://pownjs.com for more information.
