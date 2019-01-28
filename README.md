@@ -27,4 +27,4 @@ Run pown with docker.
 docker run -it opendevsecops/pown
 ```
 
-See Pownjs [official site](https://pownjs.com for more information.
+See Pownjs [official site](https://pownjs.com) for more information.
