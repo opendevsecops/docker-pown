@@ -1,10 +1,4 @@
-# 1549348999
-
-# ---
-
-FROM opendevsecops/launcher:latest as launcher
-
-# ---
+# 1550872270
 
 FROM node:11-alpine
 
@@ -26,8 +20,6 @@ RUN true \
 		ca-certificates \
 		libstdc++
 
-COPY --from=launcher /bin/launcher /bin/launcher
-
 WORKDIR /session
 
-ENTRYPOINT ["/bin/launcher", "pown"]
+ENTRYPOINT ["pown"]
